@@ -1,7 +1,6 @@
- #![license = "MIT"]
- #![deny(missing_doc)]
- #![deny(unnecessary_qualification, non_camel_case_types,
-         unused_variable, unnecessary_typecast)]
+#![license = "MIT"]
+#![deny(missing_doc)]
+#![deny(warnings)]
 
 //! Crate comment goes here
 
