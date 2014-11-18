@@ -4,8 +4,3 @@ name = "project-name"
 version = "0.0.1"
 authors = ["Jonathan Reem <jonathan.reem@gmail.com>"]
 
-[lib]
-
-name = "project-name"
-path = "src/lib.rs"
-

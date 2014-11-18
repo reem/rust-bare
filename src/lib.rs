@@ -1,6 +1,5 @@
 #![license = "MIT"]
-#![deny(missing_docs)]
-#![deny(warnings)]
+#![deny(missing_docs, warnings)]
 
 //! Crate comment goes here
 
