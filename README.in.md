@@ -9,7 +9,7 @@ with the rest of your dependencies:
 
 ```toml
 [dependencies]
-project-name = "^0.0.0"
+project-name = "*"
 ```
 
 ## Author
