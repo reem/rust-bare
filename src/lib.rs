@@ -1,4 +1,5 @@
-#![deny(missing_docs, warnings)]
+#![cfg_attr(test, deny(warnings))]
+#![deny(missing_docs)]
 
-//! Crate comment goes here
+//! project-description
 
