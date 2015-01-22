@@ -1,6 +1,12 @@
 language: rust
 sudo: false
 
+script:
+    - cargo build
+    - cargo test
+    - cargo bench --no-run
+    - cargo doc
+
 after_success:
     - if [ "$TRAVIS_PULL_REQUEST" == false && test == "TRAVIS_BRANCH" == "master" ]; then
     - curl https://raw.githubusercontent.com/reem/rust-gh-docs/master/make-docs.sh > docs.sh
