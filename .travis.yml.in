@@ -11,7 +11,7 @@ after_success:
     - if [ "$TRAVIS_PULL_REQUEST" == false && test == "TRAVIS_BRANCH" == "master" ]; then
     - curl https://raw.githubusercontent.com/reem/rust-gh-docs/master/make-docs.sh > docs.sh
     - chmod u+x docs.sh
-    - ./docs.sh reem rust-bare
+    - ./docs.sh reem project-name
 
 env:
   global:
