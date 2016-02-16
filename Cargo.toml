@@ -1,7 +1,7 @@
 [package]
 
 name = "project-name"
-version = "0.0.1"
+version = "0.1.0"
 authors = ["Jonathan Reem <jonathan.reem@gmail.com>"]
 repository = "https://github.com/reem/rust-project-name.git"
 description = "project-description"
